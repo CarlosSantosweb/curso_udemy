@@ -50,5 +50,59 @@
     <h2>Como Colocar link para outra página</h2>
     <p>Podemos usar a <strong>tag (a)</strong></p>
     <p>Você quer conferir meu primeiro páginda web. <a href="../testar_conhecimento/primeiro_teste/pri_site.html" type="_blank">Clique aqui</a></p>
+    <hr>
+    <h2>Criar Tabelas</h2>
+    <p>Para poder criar tabelas, temo que usar o <strong>comando (table)</strong></p>
+    <p>Exemplo</p>
+    <table border="2" width="400">
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$999,99</td>
+        </tr>
+    </table>
+    <p>Na tabelas, também podemos usar os comando <strong>(th), para criar titulo</strong> dentro da tabelas,<strong> (td) linhas</strong>. Mas antes de usar os seguintes <strong>comando temos que usar (tr)</strong>, pois e definição de linhas.</p>
+    <h2>Mesclar tabelas</h2>
+    <p>Para poder fazer <strong>mesclagem tem duas tags (colspan que mescla dos lados)</strong> e <strong>(rowspan, mescla de cima ou para baixo)</strong></p>
+    <p>Exemplo</p>
+    <table border="2" width="400">
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 999,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">cupom1 -R$ 10</td>
+        
+        </tr>
+        <tr>
+            <td colspan="2">cupom2 -R$ 12</td>  
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 3.478,98</td>
+        </tr>
+    </table>
 </body>
 </html>

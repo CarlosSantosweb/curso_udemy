@@ -1,0 +1,26 @@
+@charset "Utf-8";
+
+body {
+    background-color: azure;
+}
+
+div.perfil {
+    padding: 10px;
+}
+
+div.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+div.sobre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+div.rodape {
+    text-align: center;
+}

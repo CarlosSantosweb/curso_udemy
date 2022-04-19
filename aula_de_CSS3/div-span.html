@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div-span</title>
+    <style>
+
+        .perfil{
+            width: 200px;
+            padding: 10px;
+        }
+
+        #topo {
+            background-color: blue;
+        }
+
+        #conteudo {
+            background-color: red;
+        }
+
+        .produtos {
+            background-color: grey;
+            margin: 10px;
+        }
+
+        #rodape {
+            background-color: green;
+        }
+
+        .preto {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="topo">
+        <img src="../aula_de_CSS3/imagens/amazon.png" alt="Logo amazon" class="perfil">
+        <ul>
+            <li>Homer</li>
+            <li>Produto</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produtos">
+            Produto 1
+        </div>
+        <div class="produtos">
+            Produto 2
+        </div>
+        <div class="produtos">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todo os <span class="preto">Direitos</span> Reservados
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+@charset "UTf-8";
+
+/* Seletor Universal
+* {
+    border: 1px solid red;
+}
+
+/*Seletor de texto
+h1 {
+    color: green;
+}
+
+/*Seletor de Classe
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+}
+
+Seletor de ID
+#cabecalho {
+    border: 1px solid blue;
+}
+
+Seletor de filho
+li>a {
+    text-decoration: none;
+    color: red;
+}
+
+Seletor de Descendente
+div a {
+    color: green;
+}
+
+Seletor de irmão Adjacente
+h1+p {
+    color: red;
+}
+
+Seletor de Irmão Geral
+h1~p {
+    color: pink;
+}*/

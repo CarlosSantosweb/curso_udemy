@@ -8,6 +8,45 @@
     <link rel="stylesheet" href="../aula_estilizando_formularios/estilo/style.css">
 </head>
 <body>
+    <h2>Estilizando Formulários</h2>
+    <form>
+        <fieldset>
+            <legend>Detalhes de Contato</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="email">Email:</label> 
+                <input type="text" name="email">
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" name="url">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Cometários</legend>
+            <div>
+                <label for="mensagem">Menssagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label for="Lembrar">
+                    <input class="radio" type="radio" name="lembrar" id="sim">SIM
+                </label>
+            </div>
+            <div>
+                <label for="Lembrar">
+                    <input class="radio" type="radio" name="lembrar" id="não">NÃO
+                </label>
+            </div>   
+        </fieldset>
+    </form>
+    
     
 </body>
 </html>

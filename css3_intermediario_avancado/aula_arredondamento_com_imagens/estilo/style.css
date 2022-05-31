@@ -3,3 +3,34 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.caixa {
+    width: 400px;
+    background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y;  
+}
+
+.caixa h1 {
+    padding: 10px 20px 0 20px;
+    background: url(../imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p {
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+
+.caixa .ultimo {
+    background: url(../imagens/baixo2.png) no-repeat left bottom;
+    width: 400px;
+    height: 24px;
+}
+
+/*.caixa h1 {
+    padding: 10px 20px 0 20px;
+}
+
+.caixa p {
+    font-size: 1.0em;
+    padding: 0 20px 20px 20px;
+    background: url(../imagens/baixo2.png) no-repeat left bottom;
+}*/

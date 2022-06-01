@@ -76,3 +76,41 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
+/*CONFIGURAÇÃO LAYOUT DE TRÊS COLUNAS*/
+#conteudo {
+    margin: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    background: blue;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    background: green;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    background: yellow;
+}
+
+/*ESTILIZAÇÃO DO RODAPE*/
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}

@@ -83,6 +83,13 @@ body.fotos #navegacao a#fotos {
     background: #f5f5f5;
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
+
 #primario {
     width: 270px;
     float: left;
@@ -90,18 +97,23 @@ body.fotos #navegacao a#fotos {
     background: blue;
 }
 
+/*Configuração Página Brasil*/
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+/*Configuração Página com Apenas uma coluna como Fotos*/
+#uma-colunas #primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+
 #secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
     background: green;
-}
-
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: yellow;
 }
 
 /*ESTILIZAÇÃO DO RODAPE*/

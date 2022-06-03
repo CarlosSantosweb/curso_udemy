@@ -7,9 +7,9 @@
     <title>Noticias da Cidade - Seu site de noticias</title>
     <link rel="stylesheet" href="../projeto_site_noticias_da_cidade/estilo/style.css">
 </head>
-<body class="brasil">
-    <div id="container">
-        <div id="topo">
+<body id="duas-colunas" class="brasil">
+    <div id="container"> <!--Início do Contenair-->
+        <div id="topo"> <!--Início topo-->
             <h1 class="logo">Noticias Cidade</h1>
             <ul id="navegacao">
                 <li class="primeiro"><a id="home" href="index.html" target="_blank">Home</a></li>
@@ -20,6 +20,81 @@
                 <li><a id="ciencia" href="ciencia.html" target="_blank">Ciência</a></li>
                 <li><a id="fotos" href="fotos.html" target="_blank">Fotos</a></li>
             </ul>
+         </div> <!--Final Topo-->
+         <div id="conteudo"> <!-- INÍCIO CONTEÚDO -->
+
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Novos Destaques</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Nova Legislação</h3>
+                                <img class="imagem-principal" src="imagens/taxi.jpg" alt="Carro táxista" width="100%">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quae expedita repellat non, iure..</p>
+                                <a href="#">Leia Mais</a>
+                        </div>
+                </div>
+                    <div>
+                        <div class="caixa">
+                            <h2>Mundo</h2>
+                            <div class="caixa-conteudo">
+                                <ul id="listas-noticias">
+                                    <li><a href="#"><img src="../projeto_site_noticias_da_cidade/imagens/cidade.jpg" alt="tecnologia" width="80">
+                                        <h3>CRISE EUROPÉIA!</h3>
+                                        <p>Lorem, ipsum dolor sit...</p></a>
+                                    </li>
+                                    <li><a href="#"><img src="../projeto_site_noticias_da_cidade/imagens/tecnologia.jpg" alt="tecnologia" width="80">
+                                        <h3>USA TENTAM NOVO ACORDO...</h3>
+                                        <p>Lorem, ipsum dolor sit...</p></a>
+                                    </li>
+                                    <li><a href="#"><img src="../projeto_site_noticias_da_cidade/imagens/taxi.jpg" alt="tecnologia" width="80">
+                                        <h3>GUERRA NA SÍRIA!</h3>
+                                        <p>Lorem, ipsum dolor sit..</p></a>
+                                    </li>
+                                    <li><a href="#"><img src="../projeto_site_noticias_da_cidade/imagens/doutor.jpg" alt="tecnologia" width="80">
+                                    <h3>RÚSSIA APROVA LEI...</h3>
+                                    <p>Lorem, ipsum dolor sit...</p></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="lateral"> <!-- INÍCIO LATERAL -->
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form> 
+                    </div>
+                </div> 
+            </div> <!-- FIM LATERAL --> 
+        </div> <!-- FIM CONTEÚDO -->
+    </div> <!--Final do Contenair-->
+    <div id="container-rodape">
+        <div id="rodape">
+            &copy; Copyright 2000-2022 Notícias Cidade
          </div>
     </div>
 </body>

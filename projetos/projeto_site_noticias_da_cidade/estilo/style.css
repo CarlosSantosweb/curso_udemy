@@ -194,11 +194,42 @@ h3 {
     background: #de003e;
 }
 
-/*ESTILIZAÇÃO DO RODAPE*/
+/*formatando Lista de Notícias*/
+#listas-noticias li {
+    padding: 2px;
+    border-bottom: 1 px solid #ccc;
+    height: 62px;
+}
 
+#listas-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#listas-noticias li a {
+    text-decoration: none;
+}
+
+#listas-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #2e7ab9;
+}
+
+#listas-noticias li a p {
+    font-size: 0.7em;
+}
+
+#listas-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+/*ESTILIZAÇÃO DO RODAPE*/
 #container-rodape {
     background: #294c71;
     padding: 20px;
+    clear: both;
 }
 
 #rodape {

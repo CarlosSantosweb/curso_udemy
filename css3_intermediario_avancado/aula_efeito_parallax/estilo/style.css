@@ -30,10 +30,15 @@ p {
 
 /*Efeito Parallaz
 --------------------------------------*/
-.caixa1, .caixa2, .caixa3, .caixa4 {
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    position: relative;
     height: 100%;
     background-repeat: no-repeat;
     opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .caixa1 {
@@ -51,4 +56,28 @@ p {
 
 .caixa4 {
     background-image: url(../imagens/imagem4.jpg);
+}
+
+.caixa5 {
+    background-image: url(../imagens/imagem5.jpg);
+}
+
+.caixa6 {
+    background-image: url(../imagens/imagem6.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
 }

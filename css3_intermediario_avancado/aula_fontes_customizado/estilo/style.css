@@ -1,0 +1,41 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: "Road Rage";
+    src: url(../fontes/RoadRage.woff);
+}
+
+@font-face {
+    font-family: "Ancient";
+    src: url(../fontes/Ancient-Medium.woff);
+}
+
+@font-face {
+    font-family: "Bring";
+    src: url(../fontes/BringHeart.woff);
+}
+
+@font-face {
+    font-family: "Madelina";
+    src: url(../fontes/MadelinaScript.woff);
+}
+
+h1 {
+    font-size: 4em;
+    font-family: "Road Rage";
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Ancient";
+}
+
+h3 {
+    font-size: 2em;
+    font-family: "Bring";
+}
+
+p {
+    font-size: 1.2em;
+    font-family: "Madelina";
+}

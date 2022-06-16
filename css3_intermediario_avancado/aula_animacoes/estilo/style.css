@@ -1,0 +1,30 @@
+@charset "Utf-8";
+
+@keyframes animacao-caixa {
+    from { /*Estado Inicial*/
+        background: url(../imagens/camera.png) no-repeat;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+    }
+
+    to { /*Estado Final*/
+        background: url(../imagens/perfil.jpg) no-repeat;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#caixa {
+    width: 500px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /*animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;*/
+    animation: animacao-caixa 5s 3s 2 alternate;
+}

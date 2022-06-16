@@ -1,0 +1,16 @@
+@charset "Utf-8";
+
+#caixa {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 5px 10px 2px black;
+}
+
+#caixa h1 {
+    color: white;
+    text-shadow: -5px -10px black;
+}

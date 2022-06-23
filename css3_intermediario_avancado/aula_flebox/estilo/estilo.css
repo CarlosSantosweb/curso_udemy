@@ -7,14 +7,57 @@
 
     /*
     row| row-reverse| column| column-reverse
-    */
-    flex-direction: row-reverse;
+    
+    flex-direction: row;
+
+    /*nowrap| wrap| wrap-reverse|
+    
+    flex-wrap: nowrap;
+
+    /*
+    flex-start| flex-end| center| space-between| space-around
+    
+    justify-content: center;
+
+    /*
+    stretch| center| flex-start| flex-end| baseline
+    
+    align-items: stretch;*/
 }
 
 .item {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     background: white;
     border: 1px solid gray;
+
+    /*Defibe proporção de espaço ocupado por um item*/
+    flex-grow: 0;
+    /*Define a capacidade de redução tamanho do item.*/
+    flex-shrink: 0;
+    /*Indica o tamanho inicial do flex item antes da distribuição do espaço restante.*/
+    flex-basis: auto;
 }
+
+.item1 {
+    flex-grow: 1;
+    flex-shrink: 5
+    ;
+}
+
+/*.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.ordem4 {
+    order: 4;
+}*/

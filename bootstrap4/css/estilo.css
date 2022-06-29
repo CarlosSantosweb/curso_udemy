@@ -2,7 +2,8 @@
 
 body {
     margin-bottom: 200px;
-    padding: 16px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 img {

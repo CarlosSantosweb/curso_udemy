@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap4/css/estilo.css">
+    <title>Bootstrap - Tamanhos e Bordas</title>
+  </head>
+  <body>
+    <!--Classes de Largura-->
+    <div class="bg-primary w-25">width 25%</div>
+    <div class="bg-primary w-50">width 50%</div>
+    <div class="bg-primary w-75">width 75%</div>
+    <div class="bg-primary w-100">width 100%</div>
+    <div class="bg-primary w-auto">width auto</div>
+    <br><br>
+
+    <!--Classes de Altura-->
+    <div style="height: 300px;border:1px solid gray;">
+      <div class="bg-warning d-inline-block h-25">width 25%</div>
+      <div class="bg-warning d-inline-block h-50">width 50%</div>
+      <div class="bg-warning d-inline-block h-75">width 75%</div>
+      <div class="bg-warning d-inline-block h-100">width 100%</div>
+      <div class="bg-warning d-inline-block h-auto">width auto</div>
+    </div><br><br>
+
+    <!--Bordas
+    Border        -> todas as bordas
+    Border-top    -> bordar superior
+    Border-bottom -> bordar inferior
+    Border-right  -> bordar direita
+    Border-left   -> borda esquerda
+    
+    Cores de Bordas
+    border-<cor>: primary, secondary, success, info , warning, danger, leght, darkt, white
+    -->
+    <div class="bg-white mb-2 border">todas as bordas</div>
+    <div class="bg-white mb-2 border-top">bordar superior</div>
+    <div class="bg-white mb-2 border-bottom">bordar inferior</div>
+    <div class="bg-white mb-2 border-right">bordar direita</div>
+    <div class="bg-white mb-2 order-left">borda esquerda</div><br><br>
+
+    <!--
+      Border Radius
+      opções: rounded, rounded-top, rounded-bottom,         rounded-right, rounded-left, rounded-circle
+    -->
+    <div class="bg-light m-2 border rounded">rounded</div>
+    <div class="bg-light m-2 border rounded-top">rounded top</div>
+    <div class="bg-light m-2 border rounded-bottom">rounded bottom</div>
+    <div class="bg-light m-2 border rounded-right">rounded right</div>
+    <div class="bg-light m-2 border rounded-left">rounded left</div>
+    <div class="bg-light m-2 border p-5 border w-25 rounded-circle">rounded circle</div>
+
+    <h1>Media queries (Links úteis)</h1>
+    <h2>Tipos de mídias:</h2>
+    <div>
+      <ul>
+        <li>all – todos os dispositivos</li>
+      
+        <li>aural – sintetizadores de voz</li>
+      
+        <li>braille – leitores de Braille</li>
+      
+        <li>embossed – impressoras de Braille</li>
+      
+        <li>handheld – dispositivos de mão. Por exemplo: celulares com telas pequenas.</li>
+      
+        <li>print – impressoras convencionais</li>
+      
+        <li>
+          projection – apresentações de slides
+      
+          screen – monitores coloridas
+        </li>
+      
+        <li>tty – teleimpressores e terminais</li>
+      
+        <li>tv – televisores</li>
+      </ul>
+    </div>
+
+      <h3>Exemplo de utilização:</h3>
+
+    <link rel="stylesheet" media="print" href="print.css" /> 
+
+    <h3>Exemplos de resoluções de telas:</h3>
+      <ul>
+        <li>￼320 pixels – Smartphones no modo retrato.</li>
+        
+        <li>480 pixels – Smartphones no modo paisagem.</li>
+        
+        <li>600 pixels – Tablets pequenos. Ex: Amazon Kindle (600×800)</li>
+        
+        <li>￼768 pixels – Tablets maiores em modo retrato. Ex: iPad (768×1024)</li>
+        
+        <li>1024 pixels – Tablets maiores em modo paisagem, monitores antigos.</li>
+        
+        <li>￼1200 pixels – Monitores wide.</li>
+      </ul>
+     <h3>Links de media queries no Bootstrap:</h3>
+        <a href="https://getbootstrap.com/docs/4.1/layout/overview/">getbootstrap</a>
+        <h3>Exemplos de utilização media queries:</h3>
+        <p>@media (min-width: 576px) { ... }</p>
+
+
+  
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

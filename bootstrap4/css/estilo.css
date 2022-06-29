@@ -1,12 +1,102 @@
-@charset "Utf-8";
+    @charset "Utf-8";
 
-body {
-    margin-bottom: 200px;
-    width: 600px;
-    margin: 0 auto;
-}
+    body {
+        padding-bottom: 200px;
+        width: 600px;
+        margin: 0 auto;
+    }
 
-img {
-    width: 600px;
-    height: 600px;
-}
+    /*Small devices (landscape phones)
+    @media (min-width: 576px) {
+        body {
+            background: red;
+        }
+    }
+
+    Medium devices (tablets , 786px e superior)
+    @media (min-width: 768px) {
+        body {
+            background: blue;
+        }
+    }
+
+    /*Large devices (desktops, 992px e superior)
+    @media (min-width: 992px) {
+        body {
+            background: yellow;
+        }
+    }
+
+    Extra large devices (large desktops, 1200px e superior)
+    @media (min-width: 1200px) {
+        body {
+            background: black;
+        }
+    }*/
+
+    /*********************************************/
+    /*Extra Small devices (portraint phones)
+    @media (max-width: 575px) {
+        body {
+            background: #870000;
+        }
+    }
+
+    Small devices (landscape phones)
+    @media (max-width: 767px) {
+        body {
+            background: blue;
+        }
+    }
+
+    /*Large devices (Tablets)
+    @media (max-width: 991px) {
+        body {
+            background: yellow;
+        }
+    }
+
+    Extra large devices (Desktpos)
+    @media (max-width: 1199px) {
+        body {
+            background: black;
+        }
+    }*/
+
+    /*************************************************
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px)
+    {    
+        body {
+            background: #870000;
+        } 
+    }
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) and (max-width: 767.98px) 
+    {    
+        body {
+            background: yellow;
+        } 
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px)  {    
+        body {
+            background: blue;
+        } 
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) and (max-width: 1199.98px) {    
+        body {
+            background: red;
+        } 
+    }
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px)
+    {    
+        body {
+            background: gray;
+        } 
+    }*/

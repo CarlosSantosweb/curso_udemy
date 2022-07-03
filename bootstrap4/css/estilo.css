@@ -1,8 +1,8 @@
     @charset "Utf-8";
 
     body {
-        padding-bottom: 200px;
-        margin: 0 auto;
+        margin-bottom: 200px;
+        padding: 16px;
     }
 
     /*Small devices (landscape phones)

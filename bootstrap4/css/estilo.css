@@ -4,6 +4,16 @@
         margin-bottom: 200px;
         padding: 16px;
     }
+    
+    .marcador {
+        background: #fe9d9d;
+        border: 1px solid #f94646;
+    }
+
+    .marcador-container {
+        background: #5bf946;
+        border: 1px solid #36ae26;
+    }
 
     /*Small devices (landscape phones)
     @media (min-width: 576px) {

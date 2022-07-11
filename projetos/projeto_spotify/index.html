@@ -54,9 +54,26 @@
       <div class="container align-self-center"><!--Inicio Container-->
         <div class="row"><!--Inicio da Row-->
           <div class="col-md-12 capa"><!--Inicio Titulo Príncipal-->
-            <h1>Música para Todos</h1>
-            <a href="#" class="btn btn-lg btn-custom btn-roxo"> Aproveite o Spotify Free</a>
-            <a href="#" class="btn btn-lg btn-custom btn-branco">Obter Spotify Premium</a>
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+              <div class="carousel-ínner"><!--Inner-->
+                <div class="carousel-item active">
+                  <h1>Música para Todos</h1>
+                  <a href="#" class="btn btn-lg btn-custom btn-roxo"> Aproveite o Spotify Free</a>
+                  <a href="#" class="btn btn-lg btn-custom btn-branco">Obter Spotify Premium</a>
+                </div>
+                <div class="carousel-item">
+                  <h1>As Melhores Rádios</h1>
+                  <a href="#" class="btn btn-lg btn-custom btn-branco"><i class="fas fa-music"></i> Ouça Agora</a>
+                </div>
+              </div><!--Inner-->
+              <!--Controles-->
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
           </div><!--Final Titulo Príncipal-->
         </div><!--Final da Row-->
       </div><!--Final do Container-->

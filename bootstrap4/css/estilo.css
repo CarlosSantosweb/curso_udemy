@@ -30,6 +30,11 @@
         padding: 5px;
     }
 
+    .legenda-img {
+        color: black;
+        background: rgba(255, 255, 255, 0.514);
+    }
+
     /*Small devices (landscape phones)
     @media (min-width: 576px) {
         body {

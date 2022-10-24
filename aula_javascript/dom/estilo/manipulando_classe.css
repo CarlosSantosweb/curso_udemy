@@ -1,0 +1,16 @@
+@charset "Utf8";
+
+.estilo1 {
+    background: #ff0000;
+    color: #fff;
+}
+
+.estilo2 {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}

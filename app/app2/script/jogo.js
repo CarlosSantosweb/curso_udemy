@@ -2,7 +2,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
-var tempo = 15
+var tempo = 10
 
 var criaMosquitoTempo = 1500
 
@@ -19,7 +19,7 @@ if(nivel === 'normal'){
     //750
     criaMosquitoTempo = 750
 }
-
+// Ajustar tela do gamer
 function ajustaTelaGamer() {
     altura = window.innerHeight
     largura = window.innerWidth
